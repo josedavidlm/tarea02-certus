@@ -55,24 +55,64 @@
 
     <main >        		
 
-        <section id="productos" >
-            <div class="container"> 
-            <h2>Servicios</h2>
-            <div class="container-fluid">
-                
+        <div class="port">
+            <div class="container">
                 <div class="row">
-                    
-                    <figure class="col-foto"><img src="fotos/imagen1.jpg" alt="" class="img-responsives"></figure>
-                    <figure class="col-foto"><img src="fotos/imagen2.jpg" alt="" class="img-responsives"></figure>
-                    <figure class="col-foto"><img src="fotos/imagen3.jpg" alt="" class="img-responsives"></figure>
-                    <figure class="col-foto"><img src="fotos/imagen4.jpg" alt="" class="img-responsives"></figure>
-                    <figure class="col-foto"><img src="fotos/imagen5.jpg" alt="" class="img-responsives"></figure>		
-                    <figure class="col-foto"><img src="fotos/imagen6.jpg" alt="" class="img-responsives"></figure>		
-                    
-                </div><!-- row -->
-            </div><!-- container-fluid -->
-        </div><!-- container -->
-        </section><!-- productos -->
+                    <div class="col-lg-12">
+                        <div class="section-header text-center">
+                            <h2>Nuestros servicios</h2>
+                            <p>Ultimos en tecnologia!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="gallery-item" data-bs-target="#popup1" data-bs-toggle="modal">
+                            <figure class="col-foto"><img alt="Image 1" src="fotos/imagen1.jpg"></figure>
+                            <div class="overlay">
+                                <h3>Reparacion de Software</h3>
+                                <p>Podemos solucionar problemas de Android, como dispositivos atascados en recuperación</p><a class="btn btn-primary" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="gallery-item" data-bs-target="#popup2" data-bs-toggle="modal">
+                            <figure class="col-foto"><img alt="Image 2" src="fotos/imagen2.jpg"></figure>
+                            <div class="overlay">
+                                <h3>Ampliacion de memoria</h3>
+                                <p>La ampliación de la memoria RAM es una de las formas más fáciles</p><a class="btn btn-primary" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="gallery-item" data-bs-target="#popup3" data-bs-toggle="modal">
+                            <figure class="col-foto"><img alt="Image 3" src="fotos/imagen3.jpg"></figure>
+                            <div class="overlay">
+                                <h3>Intercambio de dispostivos</h3>
+                                <p>Intercambiamos tus dispositivos viejos por otros que podrian interesarte.    </p><a class="btn btn-primary" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Popup modals -->
+        <div class="modal fade" id="popup1">
+            <div class="modal-dialog">
+                <div class="modal-content"><img alt="Image 1" src="https://img.freepik.com/vector-premium/reparacion-hardware-o-software-vector-concepto-computadora-portatil-programa-computadora-reparacion-llave-reparacion-error-o-error-computadora-llave-mecanica-vector-ilustracion-plana-servicios-reparacion-mantenimiento_585735-703.jpg"></div>
+            </div>
+        </div>
+        <div class="modal fade" id="popup2">
+            <div class="modal-dialog">
+                <div class="modal-content"><img alt="Image 2" src="https://img.pccomponentes.com/pcblog/4798/ampliar-ram-portatil-1.jpg"></div>
+            </div>
+        </div>
+        <div class="modal fade" id="popup3">
+            <div class="modal-dialog">
+                <div class="modal-content"><img alt="Image 3" src="https://nsysgroup.com/media/2kcixrmj/succeed-in-buyback-trade-in.png"></div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js">
+        </script>
 
 	    <div class="whatsapp-boton">
             <a href="https://wa.me/941349964?text=Este%20es%20el%20exámen%20final%20CERTUS" target="_blank">
